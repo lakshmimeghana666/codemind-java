@@ -1,23 +1,19 @@
-import java.util.Scanner;
-public class operations{
+import java .util.*;
+public class dd
+{
     public static void main(String[] args)
     {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
         int b=sc.nextInt();
-        int c=a+b;
-        int d=a-b;
-        int e=a*b;
-        int f=a/b;
-        int g=a%b;
         System.out.printf("Sum:%d
-",c);
+",a+b);
         System.out.printf("Difference:%d
-",d);
+",a-b);
         System.out.printf("Product:%d
-",e);
+",a*b);
         System.out.printf("Quotient:%d
-",f);
-        System.out.printf("Remainder:%d",g);
+",a/b);
+        System.out.printf("Remainder:%d",a%b);
     }
 }
