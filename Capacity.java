@@ -1,13 +1,14 @@
 import java.util.Scanner;
-public class capacity{
+public class d
+{
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-        int a,b,c,x;
-        a=sc.nextInt();
-        b=sc.nextInt();
-        c=sc.nextInt();
-        x=(2*a*b*c*512)/1024;
-        System.out.printf("%d KB",x);
+        int T=sc.nextInt();
+        int S=sc.nextInt();
+        int B=sc.nextInt();
+        int a=2*T*S*B*512;
+        int s=a/1024;
+        System.out.printf("%d KB",s);
     }
 }
